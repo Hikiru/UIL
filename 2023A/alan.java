@@ -4,6 +4,6 @@ import java.io.FileNotFoundException;
 
 public class alan {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scoobydoo = new Scanner(new File("alan.dat"));
+        Scanner scoobydoo = new Scanner(new File("2023A/alan.dat"));
     }
 }
