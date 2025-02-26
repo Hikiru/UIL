@@ -10,14 +10,12 @@ public class Jacob {
         for (int i = 0; i < lines; i++) {
             pi = 3;
             int n = 2;
-            double b = 0;
+            double a = 0;
             int terms = jacob.nextInt();
             for (int j = 0; j < terms; j++) {
-                System.out.println(n);
-                double a = 4.0/((n) + (++n) + (++n)) * Math.pow((-1), j);
-                b += a;
+                a += 4.0/((n) + (++n) + (++n)) * Math.pow((-1), j);
             }
-            System.out.println(pi + b);
+            System.out.println(pi + a);
         }
     }
 }
